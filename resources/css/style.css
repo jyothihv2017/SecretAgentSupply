@@ -1,0 +1,171 @@
+html{
+  font-sizt: 18px;
+}
+
+*{
+  font-family: Helvetica;
+}
+
+p{
+  color: white;
+  background-color: black;
+}
+
+.Container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+header{
+  display: flex;
+  color: white;
+  background-color: black;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-left: 60px;
+}
+
+header img{
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.66rem 1.0rem 0.66rem  0.5rem;
+}
+
+header h3{
+  font-size: 1rem;
+  color: white;
+  background-color: black;
+}
+
+
+.mainBanner{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 25rem;
+  background-position: center;
+}
+
+.newArrivalBanner{
+  background-color: black;
+  color: white;
+}
+.newArrivalBanner h4{
+  font-weight: bold;
+  text-align: left;
+  font-size: 1rem;
+  padding: 2rem 3rem 0.25rem 3rem;
+}
+
+.newArrivalBanner h2{
+  font-weight: bold;
+  text-align: left;
+  font-size: 2rem;
+  padding: 0.25rem 3rem 3rem 3rem;
+}
+
+#newArrival{
+  position: absolute;
+  top: 9rem;
+  left: 11rem;
+  background-color: black;
+  color: white;
+  width: 20rem;
+  height: auto;
+}
+
+.nav{
+  display: flex;
+  width: 100%;
+}
+.nav ul{
+  background-color: firebrick;
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+}
+
+li a {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+    float: left;
+    color: white;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.75rem 3.7rem;
+}
+
+.imageContent{
+  display: flex;
+  flex-direction: row;
+  width: 960px;
+  height: 30rem;
+  justify-content: space-between;
+  margin: 0 80px;
+}
+
+.imageContent img{
+width: auto;
+height: 9rem;
+padding: 2rem 0;
+border: 4px solid black;
+}
+
+figure{
+  margin: 3rem;
+}
+
+
+figcaption{
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  padding: 0.5rem 0;
+  border-top: 4px solid black;
+}
+
+.locationHours{
+  height: 200px;
+}
+
+.locationHoursLabel p{
+  display: inline-block;
+  position: relative;
+  top: -230px;
+  left: 100px;
+  color: white;
+  background-color: black;
+  padding: 20px;
+  width: 210px;
+  margin: 100px;
+}
+
+.locationHoursInfo p{
+  display: inline-block;
+  position: relative;
+  top: -430px;
+  left: 100px;
+  color: black;
+  padding: 20px;
+  width: 210px;
+  margin: 100px;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  text-align: left;
+  justify-content: center;
+  width: 100%;
+  height: 5rem;
+}
