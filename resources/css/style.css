@@ -13,8 +13,15 @@ p{
 
 .Container{
   display: flex;
-  flex-direction: column;
   width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+.siteContent{
+  display: flex;
+  flex-direction: column;
+  width: 960px;
   height: auto;
 }
 
@@ -23,9 +30,9 @@ header{
   color: white;
   background-color: black;
   align-items: center;
-  width: 100%;
+  width: 960px;
   height: auto;
-  padding-left: 60px;
+  padding: 0 60px;
 }
 
 header img{
@@ -43,7 +50,8 @@ header h3{
 
 .mainBanner{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
-  width: 100%;
+  background-size: cover;
+  width: 960px;
   background-repeat: no-repeat;
   height: 25rem;
   background-position: center;
@@ -79,16 +87,15 @@ header h3{
 
 .nav{
   display: flex;
-  width: 100%;
+  width: 960px;
 }
 .nav ul{
   background-color: firebrick;
   list-style-type: none;
   padding: 0;
-  width: 100%;
+  width: 960px;
   justify-content: space-between;
   align-items: center;
-  padding: 0 60px;
 }
 
 li a {
@@ -99,29 +106,27 @@ li a {
     color: white;
     align-items: center;
     text-decoration: none;
-    padding: 0.75rem 3.7rem;
+    padding: 0.75rem 3.0rem;
 }
 
 .imageContent{
   display: flex;
   flex-direction: row;
   width: 960px;
-  height: 30rem;
+  height: 29rem;
   justify-content: space-between;
-  margin: 0 80px;
 }
 
-.imageContent img{
-width: auto;
+img{
 height: 9rem;
 padding: 2rem 0;
 border: 4px solid black;
 }
 
 figure{
-  margin: 3rem;
+  width: 30%;
+  padding: 3rem 1.5rem;
 }
-
 
 figcaption{
   background-color: black;
@@ -133,39 +138,52 @@ figcaption{
 }
 
 .locationHours{
-  height: 200px;
+  display: flex;
+  flex-direction: column;
+  width: 960px;
+}
+
+.locationHoursLabel{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .locationHoursLabel p{
-  display: inline-block;
-  position: relative;
-  top: -230px;
-  left: 100px;
+  width: 336px;
   color: white;
   background-color: black;
-  padding: 20px;
-  width: 210px;
-  margin: 100px;
+  padding: 1rem;
+  padding-left: 2rem;
+}
+
+.locationHoursInfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: left;
 }
 
 .locationHoursInfo p{
-  display: inline-block;
-  position: relative;
-  top: -430px;
-  left: 100px;
   color: black;
-  padding: 20px;
-  width: 210px;
-  margin: 100px;
+  background-color: white;
+  margin-bottom: 4rem;
+}
+
+.footerContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 5rem;
+    background-color: black;
+    color: white;
 }
 
 footer{
   display: flex;
   flex-direction: column;
-  background-color: black;
-  color: white;
   text-align: left;
   justify-content: center;
-  width: 100%;
+  width: 960px;
   height: 5rem;
 }
