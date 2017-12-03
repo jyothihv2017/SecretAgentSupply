@@ -109,6 +109,10 @@ li a {
     padding: 0.75rem 3.0rem;
 }
 
+.button{
+  display: none;
+}
+
 .imageContent{
   display: flex;
   flex-direction: row;
@@ -186,4 +190,163 @@ footer{
   justify-content: center;
   width: 960px;
   height: 5rem;
+}
+@media only screen AND (max-width: 1024px){
+
+.nav{
+  display: none;
+}
+  .button {
+    background-color: firebrick;
+    width: 100%;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    padding: .75rem 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+figure{
+  width: 47%%;
+  padding: 3rem 1.5rem;
+}
+
+
+#glasses{
+  display: none;
+}
+
+
+}
+
+@media only screen AND (max-width: 470px){
+
+
+  header{
+    display: flex;
+    color: white;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    width: cover;
+    height: auto;
+    padding: 0 60px;
+  }
+
+  header img{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0.66rem 1.0rem 0.66rem  0.5rem;
+  }
+
+  header h3{
+    display: none;
+  }
+
+
+  .mainBanner{
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15rem;
+    background-position: center;
+  }
+
+  .newArrivalBanner{
+    background-color: black;
+    color: white;
+  }
+
+  .newArrivalBanner h4{
+    font-weight: bold;
+    text-align: left;
+    font-size: 0.77rem;
+    padding: 1rem 2rem 0.25rem 2rem;
+    width: 100%;
+  }
+
+  .newArrivalBanner h2{
+    font-weight: bold;
+    text-align: left;
+    font-size: 1rem;
+    padding: 0.25rem 2rem 2rem 2rem;
+    width: 100%;
+  }
+
+  #newArrival{
+    position: absolute;
+    top: 10rem;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: auto;
+  }
+
+
+  .nav{
+    display: none;
+  }
+    .button {
+      background-color: firebrick;
+      width: 100%;
+      border: none;
+      color: white;
+      font-size: 1rem;
+      padding: .75rem 0;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      cursor: pointer;
+  }
+
+  .imageContent{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 29rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  figure{
+    width: 90%%;
+    padding: 3rem 1.5rem;
+  }
+
+
+  #watch{
+    display: none;
+  }
+
+  #glasses{
+    display: none;
+  }
+
+  .locationHoursLabel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .locationHoursInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: cover;
+    height: 5rem;
+  }
 }
